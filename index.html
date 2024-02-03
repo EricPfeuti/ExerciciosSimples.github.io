@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>EXERCÍCIOS SIMPLES - JavaScript</title>
+    <link rel="shortcut icon" href="img/Javascript_Logo.png" type="image/x-icon">
+</head>
+<style>
+    @media screen and (max-width:1020px){
+        input{
+            font-size: 35px;
+        }
+    }
+    
+</style>
+<body>
+    <h1>EXERCÍCIOS SIMPLES - JavaScript</h1>
+
+    <hr>
+
+    <h2>Exercício 1 - Área da circuferência</h2>
+    <p>Digite o valor do raio da sua circuferência em cm:</p><input type="number" id="n1" placeholder="Digite um número:">
+    <input type="button" onclick="area()" value="Verificar">
+    <p id="situacao"></p>
+
+    <hr>
+
+    <h2>Exercício 2 - Celsius em Fahrenheit</h2>
+    <p>Digite quantos graus celsius registram em seu local:</p><input type="number" id="grau" placeholder="Digite um número:">
+    <input type="button" onclick="grau()" value="Verificar">
+    <p id="fahrenheit"></p>
+
+    <hr>
+
+    <h2>Exercício 3 - Nome e Sobrenome</h2>
+    <input type="text" id="primeiro" placeholder="Digite seu nome:"><br><br>
+    <input type="text" id="sobrenome" placeholder="Digite seu sobrenome:">
+    <input type="button" onclick="nome()" value="Verificar">
+    <p id="nome"></p>
+
+    <hr>
+
+    <h2>Exercício 4 - Salário</h2>
+    <p>Digite quantas horas você trabalhou no mês:</p>
+    <input type="number" id="HT" placeholder="Digite as horas:">
+    <p>Digite quanto recebe por hora: </p>
+    <input type="number" id="VH" placeholder="Digite o valor:">
+    <p>Digite quanto é o percentual de desconto: </p>
+    <input type="number" id="PD" placeholder="Digite o valor:"> <input type="button" onclick="salarios()" value="Verificar">
+    <p id="salario"></p>
+
+    <hr>
+
+    <h2>Exercício 5 - Fahrenheit em Celsius</h2>
+    <p>Digite quantos graus fahrenheit registram em seu local:</p><input type="number" id="F" placeholder="Digite um número:">
+    <input type="button" onclick="fahrenheit()" value="Verificar">
+    <p id="graus"></p>
+
+    <hr>
+
+    <h2>Exercício 6 - Volume Cilindro</h2>
+    <p>Digite o raio do cilindro:</p>
+    <input type="number" id="raio" placeholder="Digite um número:">
+    <p>Digite a altura do cilindro: </p>
+    <input type="number" id="altura" placeholder="Digite um número:"> 
+    <input type="button" onclick="volumeLata()" value="Verificar">
+    <p id="VolumeObjeto"></p>
+
+    <hr>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
